@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="xjc (xml to java)" description="JAXB (XSD -&gt; JAVA)" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$JDKPath$\bin\xjc.exe" />
+      <option name="PARAMETERS" value="-p $FileFQPackage$ -d &quot;$SourcepathEntry$&quot; &quot;$FilePath$&quot;" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+</toolSet>

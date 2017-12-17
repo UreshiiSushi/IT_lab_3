@@ -1,0 +1,12 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="DTD" injector-id="xml">
+      <display-name>restriction</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("restriction")).withNamespace(string().equalTo("http://www.w3.org/2001/XMLSchema"))]]></place>
+    </injection>
+    <injection language="XML" injector-id="xml">
+      <display-name>simpleType/@name</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("name")).withParent(xmlTag().withLocalName(string().equalTo("simpleType")).withNamespace(string().equalTo("http://www.w3.org/2001/XMLSchema")))]]></place>
+    </injection>
+  </component>
+</application>

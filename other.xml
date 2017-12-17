@@ -1,0 +1,7 @@
+<application>
+  <component name="WebServicesPluginSettings" SelectedPlatform="Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2">
+    <StubPackage>ua.nure.itech.jaxws.service</StubPackage>
+    <StubPackage>client</StubPackage>
+    <StubUrl>http://localhost:9090/HelloPort?wsdl</StubUrl>
+  </component>
+</application>
